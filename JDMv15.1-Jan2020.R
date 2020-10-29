@@ -6,7 +6,7 @@
 ##  3Department of Biology, University of Pennsylvania, Philadelphia, PA, USA, 4Department of Brain and Cognitive Science, Massachusetts Institute of Technology, Cambridge, MA, USA
 
 library(estimatr)
-rm(list=ls())
+rm(list=ls()) 
 data <- read.csv('data.csv')
 names(data)
 
